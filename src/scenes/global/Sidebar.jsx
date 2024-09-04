@@ -94,7 +94,7 @@ const Sidebar = () => {
               <Box display="flex" justifyContent="center" alignItems="center">
                 <img
                   alt="profile-user"
-                  width="100px"
+                  width="150px"
                   height="100px"
                   src={`../../assets/logoadmin.png`}
                   style={{ cursor: "pointer", borderRadius: "50%" }}
@@ -107,7 +107,7 @@ const Sidebar = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  XYZ Name
+                  Desi Courier
                 </Typography>
 
               </Box>
@@ -136,7 +136,7 @@ const Sidebar = () => {
 
 
             <Item
-              title="Profile Form"
+              title="My Profile"
               to="/form"
               icon={<PersonOutlinedIcon />}
               selected={selected}
@@ -160,7 +160,7 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
             <Item
-              title="FAQ Page"
+              title="My Products"
               to="/faq"
               icon={<HelpOutlineOutlinedIcon />}
               selected={selected}
