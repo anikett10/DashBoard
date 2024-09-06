@@ -12,5 +12,4 @@ const Bar = () => {
     </Box>
   );
 };
-
 export default Bar;
