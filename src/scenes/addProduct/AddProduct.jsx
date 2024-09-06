@@ -16,7 +16,6 @@ const AddProduct = () => {
     console.log(values);
     // Handle form submission logic
   };
-
   return (
     <Box m="20px">
       <Header title="ADD PRODUCT" subtitle="Add a New Product" />
